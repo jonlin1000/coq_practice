@@ -1,0 +1,29 @@
+DIGEST c444f3cd37f37667611d6ec680e00f61
+Fcoq1
+ind 284:287 <> coin
+constr 342:346 <> heads
+constr 409:413 <> tails
+R350:353 coq1 <> coin ind
+R417:420 coq1 <> coin ind
+def 542:545 <> flip
+R552:555 coq1 <> coin ind
+R560:563 coq1 <> coin ind
+R576:576 coq1 <> c var
+R587:591 coq1 <> heads constr
+R596:600 coq1 <> tails constr
+R606:610 coq1 <> tails constr
+R615:619 coq1 <> heads constr
+R638:641 coq1 <> flip def
+R643:647 coq1 <> heads constr
+R700:703 coq1 <> flip def
+R705:709 coq1 <> tails constr
+def 782:786 <> flip2
+R793:796 coq1 <> coin ind
+R801:804 coq1 <> coin ind
+R814:814 coq1 <> c var
+R832:836 coq1 <> heads constr
+R821:825 coq1 <> tails constr
+R849:853 coq1 <> flip2 def
+R855:859 coq1 <> heads constr
+R872:876 coq1 <> flip2 def
+R878:882 coq1 <> tails constr

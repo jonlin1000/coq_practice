@@ -1,0 +1,660 @@
+DIGEST f955edfd5909accf4c0575421709867b
+FProofsAndPrograms
+ind 335:338 <> coin
+constr 352:356 <> heads
+constr 367:371 <> tails
+R360:363 ProofsAndPrograms <> coin ind
+R375:378 ProofsAndPrograms <> coin ind
+def 459:462 <> flip
+R469:472 ProofsAndPrograms <> coin ind
+R477:480 ProofsAndPrograms <> coin ind
+R493:493 ProofsAndPrograms <> c var
+R504:508 ProofsAndPrograms <> heads constr
+R513:517 ProofsAndPrograms <> tails constr
+R523:527 ProofsAndPrograms <> tails constr
+R532:536 ProofsAndPrograms <> heads constr
+R607:610 ProofsAndPrograms <> flip def
+R612:616 ProofsAndPrograms <> heads constr
+R629:632 ProofsAndPrograms <> flip def
+R634:638 ProofsAndPrograms <> tails constr
+def 837:841 <> flip'
+R848:851 ProofsAndPrograms <> coin ind
+R860:860 ProofsAndPrograms <> c var
+R878:882 ProofsAndPrograms <> heads constr
+R867:871 ProofsAndPrograms <> tails constr
+R895:899 ProofsAndPrograms <> flip' def
+R901:905 ProofsAndPrograms <> heads constr
+R918:922 ProofsAndPrograms <> flip' def
+R924:928 ProofsAndPrograms <> tails constr
+R1362:1366 ProofsAndPrograms <> heads constr
+R1375:1378 ProofsAndPrograms <> coin ind
+R1387:1390 ProofsAndPrograms <> flip def
+R1400:1403 ProofsAndPrograms <> flip def
+R1405:1409 ProofsAndPrograms <> heads constr
+ind 1543:1546 <> play
+constr 1560:1563 <> rock
+constr 1574:1578 <> paper
+constr 1589:1596 <> scissors
+R1567:1570 ProofsAndPrograms <> play ind
+R1582:1585 ProofsAndPrograms <> play ind
+R1600:1603 ProofsAndPrograms <> play ind
+ind 1683:1689 <> outcome
+constr 1703:1705 <> win
+constr 1719:1722 <> loss
+constr 1736:1738 <> tie
+R1709:1715 ProofsAndPrograms <> outcome ind
+R1726:1732 ProofsAndPrograms <> outcome ind
+R1742:1748 ProofsAndPrograms <> outcome ind
+def 1829:1832 <> game
+R1843:1846 ProofsAndPrograms <> play ind
+R1851:1857 ProofsAndPrograms <> outcome ind
+R1874:1875 ProofsAndPrograms <> p2 var
+R1870:1871 ProofsAndPrograms <> p1 var
+R1886:1889 ProofsAndPrograms <> rock constr
+R1892:1899 ProofsAndPrograms <> scissors constr
+R1905:1907 ProofsAndPrograms <> win constr
+R1913:1920 ProofsAndPrograms <> scissors constr
+R1923:1927 ProofsAndPrograms <> paper constr
+R1932:1934 ProofsAndPrograms <> win constr
+R1940:1944 ProofsAndPrograms <> paper constr
+R1947:1950 ProofsAndPrograms <> rock constr
+R1959:1961 ProofsAndPrograms <> win constr
+R1967:1974 ProofsAndPrograms <> scissors constr
+R1977:1980 ProofsAndPrograms <> rock constr
+R1986:1989 ProofsAndPrograms <> loss constr
+R1995:1999 ProofsAndPrograms <> paper constr
+R2002:2009 ProofsAndPrograms <> scissors constr
+R2014:2017 ProofsAndPrograms <> loss constr
+R2023:2026 ProofsAndPrograms <> rock constr
+R2029:2033 ProofsAndPrograms <> paper constr
+R2042:2045 ProofsAndPrograms <> loss constr
+R2070:2072 ProofsAndPrograms <> tie constr
+ind 2677:2681 <> beats
+constr 2711:2717 <> crushes
+constr 2743:2746 <> cuts
+constr 2776:2781 <> covers
+R2689:2692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2697:2700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2693:2696 ProofsAndPrograms <> play ind
+R2685:2688 ProofsAndPrograms <> play ind
+R2689:2692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2697:2700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2693:2696 ProofsAndPrograms <> play ind
+R2685:2688 ProofsAndPrograms <> play ind
+R2721:2725 ProofsAndPrograms <> beats ind
+R2732:2739 ProofsAndPrograms <> scissors constr
+R2727:2730 ProofsAndPrograms <> rock constr
+R2753:2757 ProofsAndPrograms <> beats ind
+R2768:2772 ProofsAndPrograms <> paper constr
+R2759:2766 ProofsAndPrograms <> scissors constr
+R2786:2790 ProofsAndPrograms <> beats ind
+R2798:2801 ProofsAndPrograms <> rock constr
+R2792:2796 ProofsAndPrograms <> paper constr
+R2914:2918 ProofsAndPrograms <> beats ind
+R2925:2932 ProofsAndPrograms <> scissors constr
+R2920:2923 ProofsAndPrograms <> rock constr
+R2943:2947 ProofsAndPrograms <> beats ind
+R2954:2957 ProofsAndPrograms <> rock constr
+R2949:2952 ProofsAndPrograms <> rock constr
+R3167:3173 ProofsAndPrograms <> crushes constr
+ind 3721:3725 <> loses
+constr 3755:3761 <> crushed
+constr 3788:3790 <> cut
+constr 3822:3828 <> covered
+R3733:3736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3741:3744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3737:3740 ProofsAndPrograms <> play ind
+R3729:3732 ProofsAndPrograms <> play ind
+R3733:3736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3741:3744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3737:3740 ProofsAndPrograms <> play ind
+R3729:3732 ProofsAndPrograms <> play ind
+R3766:3770 ProofsAndPrograms <> loses ind
+R3781:3784 ProofsAndPrograms <> rock constr
+R3772:3779 ProofsAndPrograms <> scissors constr
+R3799:3803 ProofsAndPrograms <> loses ind
+R3811:3818 ProofsAndPrograms <> scissors constr
+R3805:3809 ProofsAndPrograms <> paper constr
+R3833:3837 ProofsAndPrograms <> loses ind
+R3844:3848 ProofsAndPrograms <> paper constr
+R3839:3842 ProofsAndPrograms <> rock constr
+ind 3862:3865 <> ties
+constr 3895:3902 <> tie_rock
+constr 3923:3931 <> tie_paper
+constr 3954:3965 <> tie_scissors
+R3873:3876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3881:3884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3877:3880 ProofsAndPrograms <> play ind
+R3869:3872 ProofsAndPrograms <> play ind
+R3873:3876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3881:3884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3877:3880 ProofsAndPrograms <> play ind
+R3869:3872 ProofsAndPrograms <> play ind
+R3906:3909 ProofsAndPrograms <> ties ind
+R3916:3919 ProofsAndPrograms <> rock constr
+R3911:3914 ProofsAndPrograms <> rock constr
+R3935:3938 ProofsAndPrograms <> ties ind
+R3946:3950 ProofsAndPrograms <> paper constr
+R3940:3944 ProofsAndPrograms <> paper constr
+R3969:3972 ProofsAndPrograms <> ties ind
+R3983:3990 ProofsAndPrograms <> scissors constr
+R3974:3981 ProofsAndPrograms <> scissors constr
+def 4105:4125 <> beats_backwards_loses
+R4136:4139 ProofsAndPrograms <> play ind
+R4147:4151 ProofsAndPrograms <> beats ind
+R4156:4157 ProofsAndPrograms <> p2 var
+R4153:4154 ProofsAndPrograms <> p1 var
+R4162:4166 ProofsAndPrograms <> loses ind
+R4171:4172 ProofsAndPrograms <> p1 var
+R4168:4169 ProofsAndPrograms <> p2 var
+R4185:4185 ProofsAndPrograms <> b var
+R4196:4202 ProofsAndPrograms <> crushes constr
+R4207:4213 ProofsAndPrograms <> crushed constr
+R4219:4222 ProofsAndPrograms <> cuts constr
+R4230:4232 ProofsAndPrograms <> cut constr
+R4238:4243 ProofsAndPrograms <> covers constr
+R4249:4255 ProofsAndPrograms <> covered constr
+def 4352:4357 <> loses'
+R4368:4371 ProofsAndPrograms <> play ind
+R4377:4381 ProofsAndPrograms <> beats ind
+R4386:4387 ProofsAndPrograms <> p1 var
+R4383:4384 ProofsAndPrograms <> p2 var
+def 4520:4536 <> loses_then_loses'
+R4547:4550 ProofsAndPrograms <> play ind
+R4558:4562 ProofsAndPrograms <> loses ind
+R4567:4568 ProofsAndPrograms <> p2 var
+R4564:4565 ProofsAndPrograms <> p1 var
+R4573:4578 ProofsAndPrograms <> loses' def
+R4583:4584 ProofsAndPrograms <> p2 var
+R4580:4581 ProofsAndPrograms <> p1 var
+def 4666:4682 <> loses'_then_loses
+R4693:4696 ProofsAndPrograms <> play ind
+R4704:4709 ProofsAndPrograms <> loses' def
+R4714:4715 ProofsAndPrograms <> p2 var
+R4711:4712 ProofsAndPrograms <> p1 var
+R4720:4724 ProofsAndPrograms <> loses ind
+R4729:4730 ProofsAndPrograms <> p2 var
+R4726:4727 ProofsAndPrograms <> p1 var
+ind 5069:5072 <> same
+constr 5102:5111 <> same_heads
+constr 5135:5144 <> same_tails
+R5080:5083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5088:5091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5084:5087 ProofsAndPrograms <> coin ind
+R5076:5079 ProofsAndPrograms <> coin ind
+R5080:5083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5088:5091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5084:5087 ProofsAndPrograms <> coin ind
+R5076:5079 ProofsAndPrograms <> coin ind
+R5115:5118 ProofsAndPrograms <> same ind
+R5126:5130 ProofsAndPrograms <> heads constr
+R5120:5124 ProofsAndPrograms <> heads constr
+R5148:5151 ProofsAndPrograms <> same ind
+R5159:5163 ProofsAndPrograms <> tails constr
+R5153:5157 ProofsAndPrograms <> tails constr
+ind 5177:5183 <> inverse
+constr 5213:5223 <> heads_tails
+constr 5250:5260 <> tails_heads
+R5191:5194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5199:5202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5195:5198 ProofsAndPrograms <> coin ind
+R5187:5190 ProofsAndPrograms <> coin ind
+R5191:5194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5199:5202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5195:5198 ProofsAndPrograms <> coin ind
+R5187:5190 ProofsAndPrograms <> coin ind
+R5227:5233 ProofsAndPrograms <> inverse ind
+R5241:5245 ProofsAndPrograms <> tails constr
+R5235:5239 ProofsAndPrograms <> heads constr
+R5264:5270 ProofsAndPrograms <> inverse ind
+R5278:5282 ProofsAndPrograms <> heads constr
+R5272:5276 ProofsAndPrograms <> tails constr
+def 5361:5372 <> flip_inverse
+R5379:5382 ProofsAndPrograms <> coin ind
+R5387:5393 ProofsAndPrograms <> inverse ind
+R5398:5401 ProofsAndPrograms <> flip def
+R5403:5403 ProofsAndPrograms <> c var
+R5395:5395 ProofsAndPrograms <> c var
+R5417:5417 ProofsAndPrograms <> c var
+R5428:5432 ProofsAndPrograms <> heads constr
+R5437:5447 ProofsAndPrograms <> heads_tails constr
+R5453:5457 ProofsAndPrograms <> tails constr
+R5462:5472 ProofsAndPrograms <> tails_heads constr
+def 5574:5588 <> flip_involutive
+R5595:5598 ProofsAndPrograms <> coin ind
+R5603:5606 ProofsAndPrograms <> same ind
+R5611:5614 ProofsAndPrograms <> flip def
+R5617:5620 ProofsAndPrograms <> flip def
+R5622:5622 ProofsAndPrograms <> c var
+R5608:5608 ProofsAndPrograms <> c var
+R5637:5637 ProofsAndPrograms <> c var
+R5648:5652 ProofsAndPrograms <> heads constr
+R5657:5666 ProofsAndPrograms <> same_heads constr
+R5672:5676 ProofsAndPrograms <> tails constr
+R5681:5690 ProofsAndPrograms <> same_tails constr
+def 5772:5782 <> flip_thrice
+R5789:5792 ProofsAndPrograms <> coin ind
+R5797:5800 ProofsAndPrograms <> same ind
+R5812:5815 ProofsAndPrograms <> flip def
+R5818:5821 ProofsAndPrograms <> flip def
+R5824:5827 ProofsAndPrograms <> flip def
+R5829:5829 ProofsAndPrograms <> c var
+R5803:5806 ProofsAndPrograms <> flip def
+R5808:5808 ProofsAndPrograms <> c var
+R5862:5876 ProofsAndPrograms <> flip_involutive def
+R5879:5882 ProofsAndPrograms <> flip def
+R5884:5884 ProofsAndPrograms <> c var
+def 6606:6617 <> modus_ponens
+R6638:6641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6642:6642 ProofsAndPrograms <> Y var
+R6637:6637 ProofsAndPrograms <> X var
+R6650:6650 ProofsAndPrograms <> X var
+R6655:6655 ProofsAndPrograms <> Y var
+R6660:6660 ProofsAndPrograms <> P var
+R6662:6662 ProofsAndPrograms <> x var
+def 6813:6822 <> chain_rule
+R6845:6848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6849:6849 ProofsAndPrograms <> Y var
+R6844:6844 ProofsAndPrograms <> X var
+R6858:6861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6862:6862 ProofsAndPrograms <> Z var
+R6857:6857 ProofsAndPrograms <> Y var
+R6868:6871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6872:6872 ProofsAndPrograms <> Z var
+R6867:6867 ProofsAndPrograms <> X var
+R6888:6888 ProofsAndPrograms <> Q var
+R6891:6891 ProofsAndPrograms <> P var
+R6893:6893 ProofsAndPrograms <> x var
+ind 7145:7148 <> True
+constr 7153:7153 <> t
+R7154:7154 ProofsAndPrograms <> True ind
+ind 7166:7170 <> False
+def 7372:7389 <> ex_falso_quodlibet
+R7407:7411 ProofsAndPrograms <> False ind
+R7416:7416 ProofsAndPrograms <> X var
+R7429:7429 ProofsAndPrograms <> f var
+def 7680:7692 <> modus_tollens
+R7709:7709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7716:7720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7721:7721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7732:7737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7748:7748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7739:7742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7743:7747 ProofsAndPrograms <> False ind
+R7738:7738 ProofsAndPrograms <> X var
+R7723:7726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7727:7731 ProofsAndPrograms <> False ind
+R7722:7722 ProofsAndPrograms <> Y var
+R7711:7714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7715:7715 ProofsAndPrograms <> Y var
+R7710:7710 ProofsAndPrograms <> X var
+R7755:7764 ProofsAndPrograms <> chain_rule def
+R7770:7774 ProofsAndPrograms <> False ind
+R7768:7768 ProofsAndPrograms <> Y var
+R7766:7766 ProofsAndPrograms <> X var
+ind 7937:7939 <> and
+constr 7966:7969 <> conj
+R7974:7977 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7979:7982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7983:7985 ProofsAndPrograms <> and ind
+R7989:7989 ProofsAndPrograms <> Y var
+R7987:7987 ProofsAndPrograms <> X var
+R7978:7978 ProofsAndPrograms <> Y var
+R7973:7973 ProofsAndPrograms <> X var
+ind 8003:8004 <> or
+constr 8032:8040 <> or_introl
+constr 8059:8067 <> or_intror
+R8045:8048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8049:8050 ProofsAndPrograms <> or ind
+R8054:8054 ProofsAndPrograms <> Y var
+R8052:8052 ProofsAndPrograms <> X var
+R8044:8044 ProofsAndPrograms <> X var
+R8072:8075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8076:8077 ProofsAndPrograms <> or ind
+R8081:8081 ProofsAndPrograms <> Y var
+R8079:8079 ProofsAndPrograms <> X var
+R8071:8071 ProofsAndPrograms <> Y var
+R8223:8226 ProofsAndPrograms <> conj constr
+R8223:8226 ProofsAndPrograms <> conj constr
+R8245:8253 ProofsAndPrograms <> or_introl constr
+R8245:8253 ProofsAndPrograms <> or_introl constr
+R8272:8280 ProofsAndPrograms <> or_intror constr
+R8272:8280 ProofsAndPrograms <> or_intror constr
+R8371:8373 ProofsAndPrograms <> and ind
+not 8363:8363 <> ::type_scope:x_'/\'_x
+R8404:8405 ProofsAndPrograms <> or ind
+not 8396:8396 <> ::type_scope:x_'\/'_x
+def 8811:8818 <> and_symm
+R8841:8844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8846:8849 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R8845:8845 ProofsAndPrograms <> Y var
+R8850:8850 ProofsAndPrograms <> X var
+R8836:8839 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R8835:8835 ProofsAndPrograms <> X var
+R8840:8840 ProofsAndPrograms <> Y var
+R8898:8899 ProofsAndPrograms <> xy var
+R8910:8913 ProofsAndPrograms <> conj constr
+R8922:8925 ProofsAndPrograms <> conj constr
+def 9078:9084 <> or_symm
+R9107:9110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9112:9115 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9111:9111 ProofsAndPrograms <> Y var
+R9116:9116 ProofsAndPrograms <> X var
+R9102:9105 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9101:9101 ProofsAndPrograms <> X var
+R9106:9106 ProofsAndPrograms <> Y var
+def 9209:9217 <> and_assoc
+R9249:9252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9254:9258 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R9265:9265 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R9253:9253 ProofsAndPrograms <> X var
+R9260:9263 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R9259:9259 ProofsAndPrograms <> Y var
+R9264:9264 ProofsAndPrograms <> Z var
+R9236:9236 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R9243:9247 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R9238:9241 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R9237:9237 ProofsAndPrograms <> X var
+R9242:9242 ProofsAndPrograms <> Y var
+R9248:9248 ProofsAndPrograms <> Z var
+R9315:9317 ProofsAndPrograms <> xyz var
+R9328:9331 ProofsAndPrograms <> conj constr
+R9334:9337 ProofsAndPrograms <> conj constr
+R9349:9352 ProofsAndPrograms <> conj constr
+R9357:9360 ProofsAndPrograms <> conj constr
+def 9677:9684 <> or_assoc
+R9716:9719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9721:9725 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9732:9732 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9720:9720 ProofsAndPrograms <> X var
+R9727:9730 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9726:9726 ProofsAndPrograms <> Y var
+R9731:9731 ProofsAndPrograms <> Z var
+R9703:9703 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9710:9714 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9705:9708 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R9704:9704 ProofsAndPrograms <> X var
+R9709:9709 ProofsAndPrograms <> Y var
+R9715:9715 ProofsAndPrograms <> Z var
+R9760:9762 ProofsAndPrograms <> xyz var
+R9775:9783 ProofsAndPrograms <> or_introl constr
+R9828:9836 ProofsAndPrograms <> or_introl constr
+R9843:9851 ProofsAndPrograms <> or_introl constr
+R9878:9886 ProofsAndPrograms <> or_intror constr
+R9893:9901 ProofsAndPrograms <> or_intror constr
+R9904:9912 ProofsAndPrograms <> or_introl constr
+R9948:9956 ProofsAndPrograms <> or_intror constr
+R9963:9971 ProofsAndPrograms <> or_intror constr
+R9974:9982 ProofsAndPrograms <> or_intror constr
+prf 10309:10317 <> and_symm'
+R10340:10343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10345:10348 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R10344:10344 ProofsAndPrograms <> Y var
+R10349:10349 ProofsAndPrograms <> X var
+R10335:10338 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R10334:10334 ProofsAndPrograms <> X var
+R10339:10339 ProofsAndPrograms <> Y var
+R10491:10494 ProofsAndPrograms <> conj constr
+R10491:10494 ProofsAndPrograms <> conj constr
+prf 10747:10756 <> and_symm''
+R10787:10790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10792:10795 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R10791:10791 ProofsAndPrograms <> Y var
+R10796:10796 ProofsAndPrograms <> X var
+R10782:10785 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R10781:10781 ProofsAndPrograms <> X var
+R10786:10786 ProofsAndPrograms <> Y var
+R10855:10858 ProofsAndPrograms <> conj constr
+R10855:10858 ProofsAndPrograms <> conj constr
+prf 10930:10938 <> or_assoc'
+R10978:10981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10983:10987 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R10994:10994 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R10982:10982 ProofsAndPrograms <> X var
+R10989:10992 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R10988:10988 ProofsAndPrograms <> Y var
+R10993:10993 ProofsAndPrograms <> Z var
+R10965:10965 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R10972:10976 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R10967:10970 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R10966:10966 ProofsAndPrograms <> X var
+R10971:10971 ProofsAndPrograms <> Y var
+R10977:10977 ProofsAndPrograms <> Z var
+R11167:11175 ProofsAndPrograms <> or_introl constr
+R11167:11175 ProofsAndPrograms <> or_introl constr
+R11205:11213 ProofsAndPrograms <> or_intror constr
+R11205:11213 ProofsAndPrograms <> or_intror constr
+R11228:11236 ProofsAndPrograms <> or_introl constr
+R11228:11236 ProofsAndPrograms <> or_introl constr
+R11264:11272 ProofsAndPrograms <> or_intror constr
+R11264:11272 ProofsAndPrograms <> or_intror constr
+R11285:11293 ProofsAndPrograms <> or_intror constr
+R11285:11293 ProofsAndPrograms <> or_intror constr
+prf 11380:11402 <> or_distributes_over_and
+R11442:11445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11446:11446 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R11453:11458 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R11465:11465 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R11448:11451 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R11447:11447 ProofsAndPrograms <> X var
+R11452:11452 ProofsAndPrograms <> Y var
+R11460:11463 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R11459:11459 ProofsAndPrograms <> X var
+R11464:11464 ProofsAndPrograms <> Z var
+R11430:11434 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R11441:11441 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R11429:11429 ProofsAndPrograms <> X var
+R11436:11439 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R11435:11435 ProofsAndPrograms <> Y var
+R11440:11440 ProofsAndPrograms <> Z var
+prf 11799:11813 <> excluded_middle
+R11837:11841 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R11852:11852 ProofsAndPrograms <> ::type_scope:x_'\/'_x not
+R11836:11836 ProofsAndPrograms <> X var
+R11843:11846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11847:11851 ProofsAndPrograms <> False ind
+R11842:11842 ProofsAndPrograms <> X var
+def 12063:12086 <> double_negation_forwards
+R12110:12114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12136:12136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12115:12115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12126:12130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12131:12135 ProofsAndPrograms <> False ind
+R12117:12120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12121:12125 ProofsAndPrograms <> False ind
+R12116:12116 ProofsAndPrograms <> X var
+R12109:12109 ProofsAndPrograms <> X var
+def 12240:12264 <> double_negation_backwards
+R12287:12287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12309:12313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12314:12314 ProofsAndPrograms <> X var
+R12288:12288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12299:12303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12304:12308 ProofsAndPrograms <> False ind
+R12290:12293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12294:12298 ProofsAndPrograms <> False ind
+R12289:12289 ProofsAndPrograms <> X var
+prf 12596:12605 <> beats_same
+R12626:12629 ProofsAndPrograms <> play ind
+R12642:12645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12655:12658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12659:12663 ProofsAndPrograms <> beats ind
+R12667:12668 ProofsAndPrograms <> y' var
+R12665:12665 ProofsAndPrograms <> x var
+R12646:12649 ProofsAndPrograms <> ties ind
+R12653:12654 ProofsAndPrograms <> y' var
+R12651:12651 ProofsAndPrograms <> y var
+R12633:12637 ProofsAndPrograms <> beats ind
+R12641:12641 ProofsAndPrograms <> y var
+R12639:12639 ProofsAndPrograms <> x var
+ind 12851:12855 <> ties'
+constr 12885:12893 <> ties_same
+R12863:12866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12871:12874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12867:12870 ProofsAndPrograms <> play ind
+R12859:12862 ProofsAndPrograms <> play ind
+R12863:12866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12871:12874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12867:12870 ProofsAndPrograms <> play ind
+R12859:12862 ProofsAndPrograms <> play ind
+R12909:12912 ProofsAndPrograms <> play ind
+R12916:12920 ProofsAndPrograms <> ties' ind
+R12924:12924 ProofsAndPrograms <> p var
+R12922:12922 ProofsAndPrograms <> p var
+prf 13025:13035 <> beats_same'
+R13056:13059 ProofsAndPrograms <> play ind
+R13072:13075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13086:13089 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13090:13094 ProofsAndPrograms <> beats ind
+R13098:13099 ProofsAndPrograms <> y' var
+R13096:13096 ProofsAndPrograms <> x var
+R13076:13080 ProofsAndPrograms <> ties' ind
+R13084:13085 ProofsAndPrograms <> y' var
+R13082:13082 ProofsAndPrograms <> y var
+R13063:13067 ProofsAndPrograms <> beats ind
+R13071:13071 ProofsAndPrograms <> y var
+R13069:13069 ProofsAndPrograms <> x var
+prf 13317:13325 <> ties_symm
+R13343:13346 ProofsAndPrograms <> play ind
+R13359:13362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13363:13367 ProofsAndPrograms <> ties' ind
+R13371:13371 ProofsAndPrograms <> x var
+R13369:13369 ProofsAndPrograms <> y var
+R13350:13354 ProofsAndPrograms <> ties' ind
+R13358:13358 ProofsAndPrograms <> y var
+R13356:13356 ProofsAndPrograms <> x var
+ind 13742:13743 <> eq
+constr 13780:13786 <> eq_refl
+R13759:13762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13764:13767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13759:13762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13764:13767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13802:13802 ProofsAndPrograms <> A var
+R13806:13807 ProofsAndPrograms <> eq ind
+R13813:13813 ProofsAndPrograms <> a var
+R13811:13811 ProofsAndPrograms <> a var
+R13809:13809 ProofsAndPrograms <> A var
+R13839:13840 ProofsAndPrograms <> eq ind
+not 13826:13826 <> ::type_scope:x_'=='_x
+def 14047:14049 <> Leq
+R14069:14069 ProofsAndPrograms <> A var
+R14095:14098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14094:14094 ProofsAndPrograms <> A var
+R14109:14112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14113:14113 ProofsAndPrograms <> P var
+R14115:14115 ProofsAndPrograms <> b var
+R14106:14106 ProofsAndPrograms <> P var
+R14108:14108 ProofsAndPrograms <> a var
+R14143:14145 ProofsAndPrograms <> Leq def
+not 14130:14130 <> ::type_scope:x_'=L'_x
+prf 14329:14339 <> Leq_then_eq
+R14368:14368 ProofsAndPrograms <> A var
+R14378:14381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14383:14386 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R14382:14382 ProofsAndPrograms <> a var
+R14387:14387 ProofsAndPrograms <> b var
+R14373:14376 ProofsAndPrograms <> ::type_scope:x_'=L'_x not
+R14372:14372 ProofsAndPrograms <> a var
+R14377:14377 ProofsAndPrograms <> b var
+R14448:14450 ProofsAndPrograms <> Leq def
+R14477:14483 ProofsAndPrograms <> eq_refl constr
+R14477:14483 ProofsAndPrograms <> eq_refl constr
+R14500:14510 ProofsAndPrograms <> Leq_then_eq thm
+prf 14571:14581 <> eq_then_Leq
+R14610:14610 ProofsAndPrograms <> A var
+R14620:14623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14625:14628 ProofsAndPrograms <> ::type_scope:x_'=L'_x not
+R14624:14624 ProofsAndPrograms <> a var
+R14629:14629 ProofsAndPrograms <> b var
+R14615:14618 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R14614:14614 ProofsAndPrograms <> a var
+R14619:14619 ProofsAndPrograms <> b var
+R14666:14668 ProofsAndPrograms <> Leq def
+def 14797:14799 <> iff
+R14817:14817 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R14824:14829 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R14836:14836 ProofsAndPrograms <> ::type_scope:x_'/\'_x not
+R14819:14822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14823:14823 ProofsAndPrograms <> B var
+R14818:14818 ProofsAndPrograms <> A var
+R14831:14834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14835:14835 ProofsAndPrograms <> A var
+R14830:14830 ProofsAndPrograms <> B var
+R14862:14864 ProofsAndPrograms <> iff def
+not 14848:14848 <> ::type_scope:x_'<->'_x
+def 14911:14916 <> eq_Leq
+R14936:14936 ProofsAndPrograms <> A var
+R14947:14951 ProofsAndPrograms <> ::type_scope:x_'<->'_x not
+R14942:14945 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R14941:14941 ProofsAndPrograms <> a var
+R14946:14946 ProofsAndPrograms <> b var
+R14953:14956 ProofsAndPrograms <> ::type_scope:x_'=L'_x not
+R14952:14952 ProofsAndPrograms <> a var
+R14957:14957 ProofsAndPrograms <> b var
+R14964:14967 ProofsAndPrograms <> conj constr
+R14990:15000 ProofsAndPrograms <> Leq_then_eq thm
+R15006:15006 ProofsAndPrograms <> b var
+R15004:15004 ProofsAndPrograms <> a var
+R15002:15002 ProofsAndPrograms <> A var
+R14970:14980 ProofsAndPrograms <> eq_then_Leq thm
+R14986:14986 ProofsAndPrograms <> b var
+R14984:14984 ProofsAndPrograms <> a var
+R14982:14982 ProofsAndPrograms <> A var
+prf 15169:15183 <> inverse_of_flip
+R15201:15204 ProofsAndPrograms <> coin ind
+R15219:15222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15223:15229 ProofsAndPrograms <> inverse ind
+R15233:15233 ProofsAndPrograms <> y var
+R15231:15231 ProofsAndPrograms <> x var
+R15214:15217 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R15208:15211 ProofsAndPrograms <> flip def
+R15213:15213 ProofsAndPrograms <> x var
+R15218:15218 ProofsAndPrograms <> y var
+R15292:15302 ProofsAndPrograms <> eq_then_Leq thm
+R15310:15313 ProofsAndPrograms <> flip def
+R15304:15307 ProofsAndPrograms <> coin ind
+R15292:15302 ProofsAndPrograms <> eq_then_Leq thm
+R15310:15313 ProofsAndPrograms <> flip def
+R15304:15307 ProofsAndPrograms <> coin ind
+R15342:15348 ProofsAndPrograms <> inverse ind
+R15359:15370 ProofsAndPrograms <> flip_inverse def
+R15359:15370 ProofsAndPrograms <> flip_inverse def
+prf 15658:15665 <> eq_trans
+R15696:15696 ProofsAndPrograms <> A var
+R15705:15708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15714:15717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15719:15721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15718:15718 ProofsAndPrograms <> a var
+R15722:15722 ProofsAndPrograms <> c var
+R15710:15712 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15709:15709 ProofsAndPrograms <> b var
+R15713:15713 ProofsAndPrograms <> c var
+R15701:15703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15700:15700 ProofsAndPrograms <> a var
+R15704:15704 ProofsAndPrograms <> b var
+prf 15974:15982 <> eq_trans'
+R16013:16013 ProofsAndPrograms <> A var
+R16024:16027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16034:16037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16039:16042 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R16038:16038 ProofsAndPrograms <> a var
+R16043:16043 ProofsAndPrograms <> c var
+R16029:16032 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R16028:16028 ProofsAndPrograms <> b var
+R16033:16033 ProofsAndPrograms <> c var
+R16019:16022 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R16018:16018 ProofsAndPrograms <> a var
+R16023:16023 ProofsAndPrograms <> b var
+prf 16277:16285 <> y_is_nice
+R16314:16314 ProofsAndPrograms <> X var
+R16326:16329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16325:16325 ProofsAndPrograms <> X var
+R16347:16350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16357:16360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16361:16364 ProofsAndPrograms <> nice var
+R16366:16366 ProofsAndPrograms <> y var
+R16351:16354 ProofsAndPrograms <> nice var
+R16356:16356 ProofsAndPrograms <> x var
+R16342:16345 ProofsAndPrograms <> ::type_scope:x_'=='_x not
+R16341:16341 ProofsAndPrograms <> x var
+R16346:16346 ProofsAndPrograms <> y var
